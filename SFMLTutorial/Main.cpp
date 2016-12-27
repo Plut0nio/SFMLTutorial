@@ -3,7 +3,7 @@
    -- From http://www.sfml-dev.org/tutorials/2.4/start-vc.php
    -- Created by Peter Lodato
    -- Originally created 24 December 2016
-   -- Last modified 24 December 2016 */
+   -- Last modified 26 December 2016 */
 
 #include <SFML/Graphics.hpp>
 
@@ -14,7 +14,11 @@ int main() {
 	// Custom
 	sf::RenderWindow window(sf::VideoMode(800, 600), "ayy lmao");
 
-	sf::CircleShape shape(100.f);
+	// Default
+	//sf::CircleShape shape(100.f);
+
+	// Custom
+	sf::CircleShape shape(300.f, 90);
 
 	// Default
 	//shape.setFillColor(sf::Color::Green);
